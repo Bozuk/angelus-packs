@@ -10,4 +10,10 @@ Texts come from the [BibleSuperSearch](https://www.biblesupersearch.com) corpus.
 Most are public domain; a few carry their own licence, recorded in each pack's
 `pack_meta.attribution`.
 
-This repository holds no source — only release assets.
+`content/` holds the editorial text that accompanies scripture in the app — a
+detail and a meditation per reference, in every language they have been written
+in. See [`content/README.md`](content/README.md) for the format. It is a build
+input rather than a release asset: the app compiles it into its bundled
+database.
+
+Everything else here is release assets, not source.
